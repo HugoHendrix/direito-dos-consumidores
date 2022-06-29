@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    line-height: 150%;
+   
+}
+
+:root {
+   
+    --verde-musgo:#8B945D;
+     /*Cores retiradas do Brasão da Repúblico*/
+    --verde:#038C33 ;
+    --vermelho:#D90718;
+    --azul:#049DD9;
+    --amarelo1:#F2CB05;
+    --amarelo2:#F2B705;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+}
+
+abbr {
+    text-decoration:none;
+}
+
+.container-imagem {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-block: 2.5rem;
+
+
+}
+.container {
+    border: 1px solid gray;
+    padding: 4rem;
+   
+    margin: 4rem auto;
+    line-height:150%;
+    background:rgba(170, 170, 170, 0.13);
+    width: 90%;
+   
+    box-shadow:
+    1.2px 2px 1.2px rgba(0, 0, 0, 0.015),
+    2.7px 4.4px 2.7px rgba(0, 0, 0, 0.022),
+    4.5px 7.3px 4.6px rgba(0, 0, 0, 0.027),
+    6.9px 11px 6.9px rgba(0, 0, 0, 0.031),
+    9.9px 15.9px 10px rgba(0, 0, 0, 0.035),
+    14px 22.5px 14.2px rgba(0, 0, 0, 0.039),
+    19.9px 31.9px 20.1px rgba(0, 0, 0, 0.043),
+    28.8px 46.4px 29.2px rgba(0, 0, 0, 0.048),
+    44.4px 71.4px 45px rgba(0, 0, 0, 0.055),
+    79px 127px 80px rgba(0, 0, 0, 0.07)
+  ;
+    
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+ }
+
+ul li a {
+    text-decoration: none;
+    transition: 200ms ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--azul);
+}
+
+h1 {
+    color: var(--verde-musgo);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 2.5rem; 
+}
+
+hr.amarelo1 {
+   border: 1px solid var(--amarelo1);
+}
+hr.amarelo2 {
+    border: 1px solid var(--amarelo2);
+}
+hr.verde {
+    border: 1px solid var(--verde);
+}
+hr.azul {
+    border: 1px solid var(--azul);
+}
+hr.vermelho {
+    border: 1px solid var(--vermelho);
+    margin-bottom: 4rem;
+}
+
