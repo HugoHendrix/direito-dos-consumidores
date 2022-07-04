@@ -74,11 +74,27 @@ abbr {
 ul li a {
   text-decoration: none;
   transition: 200ms ease;
+  padding: 1.8rem;
+  
+}
+
+
+a:link {
+  color: BLACK;
+}
+
+
+a:visited {
+ color: gray;
 }
 
 a:hover {
   text-decoration: underline;
   color: var(--azul);
+}
+
+a:active {
+  color: var(--amarelo2);
 }
 
 h1 {
@@ -191,4 +207,78 @@ hr.vermelho {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 6px;
+  }
+
+  .parallax8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("brasilia01.jpg");
+    min-height: 28rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+  }
+
+  .parallax9 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("law.jpg");
+    min-height: 28rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+  }
+
+  .parallax10 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("bflag.jpg");
+    min-height: 28rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+  }
+
+  .parallax11 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("brasilia03.jpg");
+    min-height: 28rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+  }
+
+  .parallax12 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("brasilia04.jpg");
+    min-height: 28rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+  }
+
+  .parallax13 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("brasilia05.jpg");
+    min-height: 28rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+  }
+
+
+
+  .social {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
   }
