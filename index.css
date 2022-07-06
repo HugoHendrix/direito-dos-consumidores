@@ -38,6 +38,7 @@ abbr {
   text-decoration: none;
 }
 
+
 .container-imagem {
   display: flex;
   justify-content: center;
@@ -281,4 +282,19 @@ hr.vermelho {
     display: flex;
     justify-content: center;
     padding: 2rem;
+  }
+
+
+  body::-webkit-scrollbar {
+    width: 1.5rem;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--verde-musgo);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--amarelo2);    /* color of the scroll thumb */
+    border-radius: 2rem;       /* roundness of the scroll thumb */
+    border: 3px solid var(--verde);  /* creates padding around scroll thumb */
   }
