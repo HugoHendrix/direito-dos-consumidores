@@ -298,19 +298,18 @@ hr.vermelho {
     border-radius: 2rem;       /* roundness of the scroll thumb */
     border: 3px solid var(--verde);  /* creates padding around scroll thumb */
   }
-  .btnTop {
-    border-radius: 50%;
-    position: fixed;
-    bottom: 70px;
-    right: 50px;
-    z-index: 999;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    display: none;
-    transition: 1s ease-in-out;
-  }
-  
-  .btnTop img {
-    width: 25px;
-    height: 10%;
-  }
+  .devolta {
+    float:right;
+    z-index:2;
+    position:fixed;
+    bottom:20px;
+    right:15px;
+    font-size: 1.1rem;
+    padding:23px;
+    
+    
+ }
+ .devolta img {
+  width: 25px;
+  height: 10%;
+}
